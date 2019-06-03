@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Proteste!</title>
+        <meta name="description" content="Associe-se a Proteste">
+        <meta name="author" content="Proteste">
+		    <meta name="keywords" content="proteste, associe, plano full, plano light">
+
+        <meta property="og:title" content="Proteste!" />
+    		<meta property="og:type" content="business.business" />
+    		<meta property="og:url" content="#" />
+    		<meta property="og:image" content="img/logo.png" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <link href="css/fontawesome-all.css" rel="stylesheet">
+
+    </head>
+    <body>
+
+
+      <div id="topo" class="position-relative">
+        <header class="container d-flex justify-content-between py-3">
+          <img id="logo" src="img/logo.png" alt="Proteste!" />
+          <p class="pt-3 compartilhe">
+            <span class="align-middle mr-2">COMPARTILHE:</span>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=#" class="fab fa-facebook fix-t1"></a>
+            <a href="https://twitter.com/home?status=%23PROTESTE" class="fab fa-twitter fix-t1"></a>
+          </p>
+        </header>
+
+
+        <div id="webdoor" class="container d-flex align-items-end flex-column">
+          <div class="text">
+            <h2>Para consumir de maneira<br>inteligente e ainda<br>proteger seus  direitos</h2>
+            <h2 class="alt">Associe-se a Proteste</h2>
+            <a class="btn btn-outline-primary mt-4" href="#detalhes">Veja as vantagens <div class="icon-more"></div></a>
+          </div>
+          <div id="persons" class="mt-auto"></div>
+        </div>
+
+      </div>
+
+      <section id="associese" class="bgazul">
+        <div class="container p-5">
+          <div class="row titulo d-block">
+            <h2>Associe-se agora</h2>
+            <p>E veja como a Proteste pode orientar<br>você do início ao fim de cada compra:</p>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 text-center">
+              <img src="img/img2.png" alt="Antes da compra" style="margin-left: -60px;">
+              <h2>Antes da Compra</h2>
+              <p>Como comparar produtos para acertar na escolha? A Proteste disponibiliza testes de qualidade entre marcas, além de revistas e matérias exclusivas sobre consumo inteligente e direitos do consumidor.</p>
+            </div>
+            <div class="col-lg-4 text-center">
+              <img src="img/img3.png" alt="Durante a compra">
+              <h2>Durante a Compra</h2>
+              <p>Com mais de 400 descontos exclusivos do Clube de Vantagens em produtos parceiros e acesso online às melhores ofertas de produtos testados.</p>
+            </div>
+            <div class="col-lg-4 text-center">
+              <img src="img/img4.png" alt="Depois da compra">
+              <h2>Depois da Compra</h2>
+              <p>Foi lesado numa compra? A Proteste oferece assessoria jurídica e orientação legal para resguardar seu direito de consumidor, além de newsletters periódicas sobre como se defender de armadilhas para consumidores.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="detalhes" class="bgcinza">
+        <div class="container p-5">
+          <div class="row mb-4"><h3 class="text-center m-auto py-5">Torne-se um associado e conte com toda a assistência necessária <br>para transformar seus hábitos de consumo. </h3></div>
+
+          <div class="row">
+            <div class="card-deck col-sm-10 m-auto">
+              <div class="card card-azul">
+                <div class="card-header">
+                  <h5 class="card-title">Digital</h5>
+                  <h6 class="preco">
+                      R$<strong>1</strong><sup>,99*</sup>
+                    <div class="obs">*nos três primeiros meses, <br> depois R$ 9,99 para família.</div>
+                  </h6>
+                </div>
+                <div class="card-body">
+                  <ul>
+                    <li>Acesso ilimitado a Orientação <br>Jurídica para toda a família</li>
+                    <li>Descontos para Associados em produtos</li>
+                    <li>Acesso a todos os Testes Comparativos</li>
+                    <li>Conteúdo completo das Revistas Digitais</li>
+                  </ul>
+                  <a class="btn btn-primary d-inline-block" href="#formulario" onclick="escolhePlano('planoLight')">Escolha o Light</a>
+                </div>
+                <div class="card-footer">
+                  <ul>
+                    <li>Newsletters Exclusivas</li>
+                    <li>Cursos Online Grátis</li>
+                    <li>Descontos Exclusivos em Produtos</li>
+                    <li>Atendimento Telefônico Ilimitado</li>
+                    <li>4 Acessos Simultâneos para Família</li>
+                    <li class="text-white">R$50,00 de desconto na Magazineluiza</li>
+                    <li class="hack-ultimo"></li>
+                  </ul>
+                      </div>
+              </div>
+              <div class="card card-cinza">
+                <div class="card-header">
+                  <h5 class="card-title">Full</h5>
+                  <h6 class="preco">
+                      R$<strong>29</strong><sup>,99</sup>
+                    <div class="obs">por mês, além de <br>brinde + revista impressa</div>
+                  </h6>
+                </div>
+                <div class="card-body">
+                  <ul>
+                    <li>Acesso ilimitado a Orientação <br>Jurídica para toda a família</li>
+                    <li>Descontos para Associados em produtos</li>
+                    <li>Acesso a todos os Testes Comparativos</li>
+                    <li>Conteúdo completo das Revistas Digitais</li>
+                  </ul>
+                  <a class="btn btn-secondary d-inline-block" href="#formulario" onclick="escolhePlano('planoFull')">Escolha o Full</a>
+                </div>
+                <div class="card-footer">
+                  <ul>
+                    <li>Newsletters Exclusivas</li>
+                    <li>Cursos Online Grátis</li>
+                    <li>Descontos Exclusivos em Produtos</li>
+                    <li>Atendimento Telefônico Ilimitado</li>
+                    <li>4 Acessos Simultâneos para Família</li>
+                    <li class="text-blue">Revistas Impressas na sua casa</li>
+                    <li class="text-blue">Smart Watch de brinde</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <h3 class="destaque text-center m-auto">Além de: </h3>
+          </div>
+          <div class="row beneficios col-sm-10 m-auto pb-5">
+            <div class="col-md-4">
+              <ul>
+                <li>Newsletters sobre Consumo Inteligente e Direitos do Consumidor</li>
+                <li>Acesso exclusivo a comparadores e testes de produtos</li>
+                <li>XX% de desconto em e-books da Proteste</li>
+                <li>Curso Online Grátis de Educação Financeira</li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <ul>
+                <li>Descontos exclusivos em produtos parceiros</li>
+                <li>Clube de descontos para associados (mais de 400 produtos)</li>
+                <li>Acesso direto online às melhores ofertas de produtos testados</li>
+                <li>Acesso Imediato a avaliações de 'stres' online</li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <ul>
+                <li>Newsletter sobre como se defender de armadilhas para consumidores</li>
+                <li>Atendimento Telefônico Ilimitado sobre Direito do Consumidor e Orientação Legal</li>
+                <li>Suporte Legal para garantir os Direitos do Consumidor</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row mb-4"><h3 class="text-center m-auto">Você trabalha muito pelo seu dinheiro<br>Deixe que a gente trabalhe para protegê-lo<br>Associe-se já!  </h3></div>
+        </div>
+      </section>
+      <section id="formulario" class="bgcinza-claro pb-5 hidden" >
+      <form>
+        <div class="container p-5">
+          <div class="row bg-white p-3 tipoPlanoBox">
+            <select name="tipoPlano" id="tipoPlano" class="custom-select col-lg-2" onchange="escolhePlanoForm()">
+	             <option value="planoLight">plano light</option>
+	             <option value="planoFull">plano full</option>
+             </select>
+             <h6 class="preco col-lg-5 text-left pl-5" id="precoForm">
+                 R$<strong>1</strong><sup>,99</sup>
+               <div class="obs">(3 primeiros meses, depois R$9<sup class="alt">,90</sup>)</div>
+             </h6>
+           </div>
+           <div class="row">
+            <div class="col-md-4 mt-5">
+              <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome completo*" value="" required>
+            </div>
+            <div class="col-md-4 mt-5">
+              <input type="email" class="form-control" id="email" name="email" placeholder="E-mail*" value="" required>
+            </div>
+          </div>
+          <div class="row">
+           <div class="col-md-4 col-lg-2 col-xl-1 mt-4">
+             <input type="text" maxlength="2" class="form-control" id="ddd" name="ddd" placeholder="DDD" value="">
+           </div>
+           <div class="col-md-3 mt-4">
+             <input type="text" maxlength="9" class="form-control" id="telefone" name="telefone" placeholder="Telefone" value="">
+           </div>
+           <div class="col-md-4 col-lg-2 mt-4">
+             <input type="text" maxlength="14" class="form-control" id="cpf" name="cpf" placeholder="CPF*" value="" required>
+           </div>
+         </div>
+         <div class="row">
+          <div class="col-md-2 mt-5">
+            <input type="text" maxlength="9" class="form-control" id="cep" name="cep" placeholder="CEP*" value="" required>
+          </div>
+          <div class="col-md-1 mt-5">
+            <a class="btn btn-link" href="http://www.buscacep.correios.com.br/sistemas/buscacep/buscaCepEndereco.cfm" target="_blank">Buscar CEP</a>
+          </div>
+        </div>
+        <div class="row">
+         <div class="col-md-8 mt-4">
+           <input type="text" class="form-control" id="logradouro" name="logradouro" placeholder="Logradouro*" value="" required>
+         </div>
+         <div class="col-md-2 mt-4">
+           <input type="text" class="form-control" id="numlogradouro" name="numlogradouro" placeholder="Número*" value="" required>
+         </div>
+         <div class="col-md-2 mt-4">
+           <input type="text" class="form-control" id="complemento" name="complemento" placeholder="Complemento" value="">
+         </div>
+       </div>
+       <div class="row">
+        <div class="col-md-4 mt-4">
+          <input type="text" class="form-control" id="bairro" name="bairro" placeholder="Bairro*" value="" required>
+        </div>
+        <div class="col-md-4 mt-4">
+          <input type="text" class="form-control" id="cidade" name="cidade" placeholder="Cidade*" value="" required>
+        </div>
+        <div class="col-md-4 mt-4">
+          <input type="text" class="form-control" id="estado" name="estado" placeholder="Estado*" value="" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-10 mt-5">
+          <div class="custom-control custom-radio d-inline-block mr-2">
+            <input id="credito" name="metodoPagamento" type="radio" class="custom-control-input" checked="" required="">
+            <label class="custom-control-label" for="credito">Cartão de Crédito</label>
+          </div>
+          <div class="custom-control custom-radio d-inline-block">
+            <input id="debito" name="metodoPagamento" type="radio" class="custom-control-input" required="">
+            <label class="custom-control-label" for="debito">Débito em conta corrente</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+              <div class="col-sm-12 col-md-8"> <!--parte esquerda -->
+                <div class="row">
+                    <div class="col-md-6 mt-4">
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text"><i class="fas fa-credit-card"></i></span>
+                        </div>
+                        <input type="text" class="form-control" id="numcartao" name="numcartao" placeholder="Número do Cartão*" required>
+                      </div>
+                    </div>
+                    <div class="col-md-3 mt-4">
+                      <select name="mescartao" id="mescartao" class="form-control" required>
+                      	<option value="01">01</option>
+                      	<option value="02">02</option>
+                      	<option value="03">03</option>
+                      	<option value="04">04</option>
+                      	<option value="05">05</option>
+                      	<option value="06">06</option>
+                      	<option value="07">07</option>
+                      	<option value="08">08</option>
+                      	<option value="09">09</option>
+                      	<option value="10">10</option>
+                      	<option value="11">11</option>
+                      	<option value="12">12</option>
+                      </select>
+                    </div>
+                    <div class="col-md-3 mt-4">
+                      <select name="anocartao" id="anocartao" class="form-control" required>
+                      	<option value="2016">2016</option>
+                      	<option value="2017">2017</option>
+                      	<option value="2018">2018</option>
+                      	<option value="2019">2019</option>
+                      	<option value="2020">2020</option>
+                      	<option value="2021">2021</option>
+                      	<option value="2022">2022</option>
+                      	<option value="2023">2023</option>
+                      	<option value="2024">2024</option>
+                      	<option value="2025">2025</option>
+                      	<option value="2026">2026</option>
+                      	<option value="2027">2027</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-4 mt-4">
+                      <input type="text" class="form-control" id="titularcartao" name="titularcartao" placeholder="Titular do Cartão*" value="" required>
+                    </div>
+                    <div class="col-md-6 mt-4 pt-2">
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="aceitorevista" name="aceitorevista" checked>
+                        <label class="custom-control-label" for="aceitorevista">Desejo a revista PROTESTE Saúde</label>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="col-sm-4 mt-4"><!--parte direita -->
+                <button type="submit" class="btn btn-ok">OK</button>
+              </div>
+          </div>
+
+
+
+
+      </form>
+      </section>
+
+      <footer class="footer bgcinza-escuro d-flex justify-content-between py-2">
+        <div class="container">
+            <img id="logo-branca" src="img/logo_white.png" alt="Proteste!" />
+            <nav class="float-right">
+                <a href="#">Política de privacidade</a> |
+                <a href="#">Termos e condições</a> |
+                <a href="#">Contato</a>
+            </nav>
+        </div>
+      </footer>
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <script src="js/main.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
